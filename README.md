@@ -37,17 +37,3 @@ full error when you [report it](https://github.com/Henreh1/The-Vanillafiyator/is
 For beta feedback, tell me what sort of mods you use, whether the game
 opened after isolating, and whether your mods came back.
 
-## Building it
-
-Use the .NET 10 SDK on Windows.
-
-```powershell
-dotnet run --project .\TheVanillafiyator.csproj
-dotnet run --project .\tests\Checks.csproj -c Release
-dotnet publish .\TheVanillafiyator.csproj -c Release -p:PublishProfile=Standalone-win-x64 -o .\artifacts\win-x64
-```
-
-The checks use disposable folders. The publish command makes the
-standalone exe. The beta ZIP has the exe and `START-HERE.txt`, with the
-bundled runtime's notices at the end of the guide. The beta exe is
-unsigned, so Windows may show a reputation warning.
