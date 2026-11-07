@@ -1,0 +1,43 @@
+THE VANILLAFIYATOR
+0.1.0-beta.1  |  Windows x64
+
+A small switch for common Dead as Disco mods. Put them away for a
+session, then bring them back to their original folders.
+
+GET STARTED
+
+1. Extract the ZIP to a folder outside the game install.
+2. Double-click TheVanillafiyator.exe. .NET comes with the app.
+3. On the first run, paste the game folder that contains Pagoda.exe.
+   Steam's Manage > Browse local files opens the right folder.
+4. Pick an option and press Enter.
+
+   1  Scan          Preview recognized mod paths and any pending restore.
+   2  Isolate mods  Move recognized mods to the sibling storage folder.
+   3  Restore mods  Move stored mods back to their original locations.
+   0  Exit
+
+Close Dead as Disco before using 2 or 3. While mods are isolated, keep
+the folder named Dead as Disco.vanillafiyator beside the game folder.
+It contains your mods and their restore record. Restore before moving
+the game to another Steam library.
+
+WHAT THIS BETA COVERS
+
+The scan recognizes common ~mods, LogicMods, UE4SS, and Limelight paths.
+It flags some custom loaders for review. If you install mods elsewhere
+or replace original game files, those changes can remain in the game.
+
+If a move stops, use 1 to see what is in storage. Use 3 to put the
+stored items back. If the app reports a conflict, keep both copies and
+include the full error message when reporting it.
+
+This beta executable is unsigned. Windows may show a reputation
+warning. SHA256SUMS.txt lists the hash of the executable for comparison
+with the hash shared by the release author.
+
+BETA FEEDBACK
+
+If you try it, say which mod layout you use (pak mods, UE4SS, or both),
+whether the game launched after isolating, and whether your mods came
+back after restoring. Include the full error if something stops.
