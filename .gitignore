@@ -1,0 +1,18 @@
+# Build and publish output
+[Bb]in/
+[Oo]bj/
+/.vs/
+/artifacts/
+/publish/
+*.exe
+*.pdb
+*.zip
+*.zip.sha256
+
+# Local IDE files
+*.user
+*.suo
+
+# Game and recovery folders from local testing
+*.vanillafiyator/
+.limelight/
