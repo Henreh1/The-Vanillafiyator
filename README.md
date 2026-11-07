@@ -48,6 +48,6 @@ dotnet publish .\TheVanillafiyator.csproj -c Release -p:PublishProfile=Standalon
 ```
 
 The checks use disposable folders. The publish command makes the
-standalone exe. The beta ZIP also comes with `START-HERE.txt`, a SHA-256
-checksum and the bundled runtime's notices. The beta exe is unsigned,
-so Windows may show a reputation warning.
+standalone exe. The beta ZIP has the exe and `START-HERE.txt`, with the
+bundled runtime's notices at the end of the guide. The beta exe is
+unsigned, so Windows may show a reputation warning.

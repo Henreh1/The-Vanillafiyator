@@ -33,8 +33,7 @@ stored items back. If the app reports a conflict, keep both copies and
 include the full error message when reporting it.
 
 This beta executable is unsigned. Windows may show a reputation
-warning. SHA256SUMS.txt lists the hash of the executable for comparison
-with the hash shared by the release author.
+warning.
 
 BETA FEEDBACK
 
