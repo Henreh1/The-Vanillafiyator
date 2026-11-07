@@ -37,3 +37,10 @@ full error when you [report it](https://github.com/Henreh1/The-Vanillafiyator/is
 For beta feedback, tell me what sort of mods you use, whether the game
 opened after isolating, and whether your mods came back.
 
+<a href="https://brainmade.org/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://brainmade.org/white-logo.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://brainmade.org/black-logo.svg">
+  <img alt="brainmade" src="https://brainmade.org/white-logo.svg">
+</picture>
+</a>
